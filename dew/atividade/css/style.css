@@ -1,0 +1,36 @@
+header{
+    background-color: red;
+    width: 90%;
+    height: 150px;
+}
+nav{
+    background-color: blue;
+    width: 30%;
+    height: 100%;
+    float: right;
+}
+main{
+    background-color: green;
+    width: 70%;
+    height: 500px;
+    float: left;
+}
+section{
+    background-color: yellow;
+    width: 40%;
+    height: 95%;
+    float: left;
+    margin: 5px 2%;
+}
+aside{
+    background-color: firebrick;
+    width: 20%;
+    height: 300px;
+    float: right;
+}
+footer{
+    background-color: indigo;
+    width: 90%;
+    height: 150px;
+    clear: both;
+}

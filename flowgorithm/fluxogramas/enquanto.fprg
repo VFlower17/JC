@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ifsp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-06-02 04:53:04 "/>
+        <attribute name="created" value="aWZzcDtCUkktTDFNMzc7MjAyMi0wNi0wMjsiMDQ6MjM6MzMgIjsyMTky"/>
+        <attribute name="edited" value="aWZzcDtCUkktTDFNMzc7MjAyMi0wNi0wMjsiMDQ6NTM6MDQgIjsxOzIzMDE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="cont" type="Integer" array="False" size=""/>
+            <assign variable="cont" expression="10"/>
+            <while expression="cont&gt;=1">
+                <output expression="(cont) &amp; &quot;-&quot;" newline="True"/>
+                <assign variable="cont" expression="cont-1"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

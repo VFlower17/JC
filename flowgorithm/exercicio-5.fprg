@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ifsp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-14 03:49:24 "/>
+        <attribute name="created" value="aWZzcDtCUkktTDFNMzg7MjAyMi0wNC0xNDsiMDM6Mzk6NTggIjsyMjA3"/>
+        <attribute name="edited" value="aWZzcDtCUkktTDFNMzg7MjAyMi0wNC0xNDsiMDM6NDk6MjQgIjsxOzIzMDk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Fa&#231;a um algoritmo que leia 4 notas de um aluno&#13;&#10;e calcule a m&#233;dia ponderada, onde os pesos s&#227;o respectivamente 1, 2,&#13;&#10;3 e 4.&#13;"/>
+            <declare name="nota1, nota2, nota3, nota4, calculo" type="Real" array="False" size=""/>
+            <assign variable="nota1" expression="1"/>
+            <assign variable="nota2" expression="2"/>
+            <assign variable="nota3" expression="3"/>
+            <assign variable="nota4" expression="4"/>
+            <assign variable="calculo" expression="(nota1 * nota2 * nota3 * nota4) / (nota1 + nota2 + nota3 + nota4)"/>
+            <output expression="&quot;O resultado &#233; &quot; &amp; calculo" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

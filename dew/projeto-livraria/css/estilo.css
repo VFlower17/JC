@@ -1,0 +1,73 @@
+html{
+        background-color: lightgoldenrodyellow;
+}
+.destaques{
+    background-image: url(https://picsum.photos/1080/2500);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#topo h1{
+    color: navy;
+    text-align: center;
+     font-family: monospace;
+    font-style: italic;
+}
+#topo h2{
+    color: navy;
+    text-align: center;
+    font-family: monospace;
+    font-style: italic;
+}
+.destaque h2{
+    color: blue;
+    font-weight: 900;
+}
+#rodape p{
+    font-style: italic;
+}
+.nav{
+    text-align: center;
+}
+.nav li a{
+    text-decoration: none;
+    color: white;
+}
+.nav li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 70px;
+    background-color: firebrick;
+    width: 90px;
+    border-radius: 30px;
+    text-align: center;
+}
+.nav li:hover{
+    font-size: 20px;
+    background-color: black;
+    color: firebrick;
+    border: solid firebrick 3px;
+    border-radius: 30px;
+}
+.nav2{
+    text-align: center;
+}
+.nav2 li a{
+    text-decoration: none;
+    color: white;
+}
+.nav2 li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 70px;
+    background-color: firebrick;
+    width: 90px;
+    border-radius: 30px;
+    text-align: center;
+}
+.nav2 li:hover{
+    font-size: 20px;
+    background-color: black;
+    color: firebrick;
+    border: solid firebrick 3px;
+    border-radius: 30px;
+}

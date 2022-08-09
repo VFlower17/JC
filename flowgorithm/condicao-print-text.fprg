@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ifsp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-12 02:59:53 "/>
+        <attribute name="created" value="aWZzcDtCUkktTDFNMzg7MjAyMi0wNS0xMjsiMDI6NTA6MzIgIjsyMTkw"/>
+        <attribute name="edited" value="aWZzcDtCUkktTDFNMzg7MjAyMi0wNS0xMjsiMDI6NTk6NTMgIjsxOzIzMTA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valor" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero.&quot;" newline="True"/>
+            <input variable="valor"/>
+            <if expression="valor&lt;3">
+                <then>
+                    <output expression="&quot;Lorem Ipsum. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="valor&gt;25">
+                        <then>
+                            <output expression="&quot;Lorem Ipsum. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...&quot;" newline="True"/>
+                        </then>
+                        <else/>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

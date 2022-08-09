@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ifsp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-12 04:09:02 "/>
+        <attribute name="created" value="aWZzcDtCUkktTDFNMzg7MjAyMi0wNS0xMjsiMDQ6MDY6NTAgIjsyMTkz"/>
+        <attribute name="edited" value="aWZzcDtCUkktTDFNMzg7MjAyMi0wNS0xMjsiMDQ6MDk6MDIgIjsxOzIzMDE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valor" type="Integer" array="False" size=""/>
+            <output expression="&quot;Quantos R$ tem?&quot;" newline="True"/>
+            <input variable="valor"/>
+            <if expression="valor&gt;=20">
+                <then>
+                    <output expression="&quot;Pode comprar pizza&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;N&#227;o pode comprar pizza&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

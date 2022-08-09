@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ifsp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-14 03:39:46 "/>
+        <attribute name="created" value="aWZzcDtCUkktTDFNMzg7MjAyMi0wNC0xNDsiMDM6MzI6MzMgIjsyMTkz"/>
+        <attribute name="edited" value="aWZzcDtCUkktTDFNMzg7MjAyMi0wNC0xNDsiMDM6Mzk6NDYgIjsxOzIzMTI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Fa&#231;a um algoritmo que leia a base e a altura de&#13;&#10;um tri&#226;ngulo e efetue o c&#225;lculo da &#225;rea do mesmo."/>
+            <declare name="base, altura, calculo" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o valor da base&quot;" newline="True"/>
+            <input variable="base"/>
+            <output expression="&quot;Digite o valor da altura&quot;" newline="True"/>
+            <input variable="altura"/>
+            <assign variable="calculo" expression="(base * altura) / 2"/>
+            <output expression="&quot;O resultado &#233; &quot; &amp; calculo" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

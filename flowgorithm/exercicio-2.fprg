@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ifsp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-14 03:18:01 "/>
+        <attribute name="created" value="aWZzcDtCUkktTDFNMzg7MjAyMi0wNC0xNDsiMDM6MDU6MTEgIjsyMTg5"/>
+        <attribute name="edited" value="aWZzcDtCUkktTDFNMzg7MjAyMi0wNC0xNDsiMDM6MTg6MDEgIjsxOzIzMDA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Fa&#231;a um algoritmo que leia a medida da frente e&#13;&#10;o comprimento de um terreno retangular e depois calcule a &#225;rea do&#13;&#10;terreno&#13;"/>
+            <declare name="frente, comprimento, calculo" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o valor da frente&quot;" newline="True"/>
+            <input variable="frente"/>
+            <output expression="&quot;digite o comprimento&quot;" newline="True"/>
+            <input variable="comprimento"/>
+            <assign variable="calculo" expression="frente * comprimento"/>
+            <output expression="&quot;O total &#233; &quot; &amp; calculo" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

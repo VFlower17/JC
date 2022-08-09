@@ -1,0 +1,38 @@
+html{
+    background-color: lightblue;
+}
+.title{
+    text-align: center;
+    color: royalblue;
+    background-color: orange;
+}
+.title{
+    border: solid firebrick 5px;
+    border-radius: 65px;
+}
+.float img{
+    float: right;
+    margin-top: 25px;
+}
+#middle{
+    width: 120px;
+    margin-left: 670px;
+}
+#middle p a{
+    text-decoration: none;
+    color: white;
+}
+#middle p{
+    text-align: center;
+    text-decoration: none;
+    background-color: royalblue;
+    border: solid firebrick 3px;
+    border-radius: 30px;
+    height: 20px;
+    margin-top: 900px;
+}
+#footer{
+    background-color: orange;
+    border: solid firebrick 3px;
+    border-radius: 35px;
+}

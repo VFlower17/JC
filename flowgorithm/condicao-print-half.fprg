@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ifsp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-12 03:06:20 "/>
+        <attribute name="created" value="aWZzcDtCUkktTDFNMzg7MjAyMi0wNS0xMjsiMDM6MDI6MjkgIjsyMTk0"/>
+        <attribute name="edited" value="aWZzcDtCUkktTDFNMzg7MjAyMi0wNS0xMjsiMDM6MDY6MjAgIjsxOzIyOTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero, metade" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero.&quot;" newline="True"/>
+            <input variable="numero"/>
+            <assign variable="metade" expression="numero/2"/>
+            <if expression="numero&gt;20">
+                <then>
+                    <output expression="(metade)" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Error 327! Please, uninstal the Software.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

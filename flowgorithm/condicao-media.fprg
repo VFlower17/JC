@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ifsp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-12 02:50:24 "/>
+        <attribute name="created" value="aWZzcDtCUkktTDFNMzg7MjAyMi0wNS0xMjsiMDI6Mzc6MTQgIjsyMTk1"/>
+        <attribute name="edited" value="aWZzcDtCUkktTDFNMzg7MjAyMi0wNS0xMjsiMDI6NTA6MjQgIjsyOzIzMDA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="B1, B2, media" type="Integer" array="False" size=""/>
+            <declare name="nome" type="String" array="False" size=""/>
+            <output expression="&quot;Qual o nome do aluno?&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Qual foi a m&#233;dia do 1&#186; bimestre?&quot;" newline="True"/>
+            <input variable="B1"/>
+            <output expression="&quot;Qual foi a m&#233;dia do 2&#176; bimestre?&quot;" newline="True"/>
+            <input variable="B2"/>
+            <assign variable="media" expression="(B1 + B2)/2"/>
+            <if expression="media&gt;=6">
+                <then>
+                    <output expression="(nome) &amp; &quot; foi aprovado.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="(nome) &amp; &quot; n&#227;o foi aprovado.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

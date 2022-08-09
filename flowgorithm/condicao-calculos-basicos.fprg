@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ifsp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-12 04:02:36 "/>
+        <attribute name="created" value="aWZzcDtCUkktTDFNMzg7MjAyMi0wNS0xMjsiMDM6NTA6NDMgIjsyMTkz"/>
+        <attribute name="edited" value="aWZzcDtCUkktTDFNMzg7MjAyMi0wNS0xMjsiMDQ6MDI6MzYgIjsxOzIzMDE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numero1, numero2, adicao, subtracao, multiplicacao" type="Integer" array="False" size=""/>
+            <declare name="divisao" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero&quot;" newline="True"/>
+            <input variable="numero1"/>
+            <output expression="&quot;Digite outro n&#250;mero.&quot;" newline="True"/>
+            <input variable="numero2"/>
+            <assign variable="adicao" expression="numero1 + numero2"/>
+            <output expression="&quot;Resultado da adi&#231;&#227;o: &quot; &amp; (adicao)" newline="True"/>
+            <assign variable="subtracao" expression="numero1 - numero2"/>
+            <output expression="&quot;Resultado da subtra&#231;&#227;o: &quot; &amp; (subtracao)" newline="True"/>
+            <if expression="numero1&gt;numero2">
+                <then>
+                    <if expression="numero2=0">
+                        <then>
+                            <output expression="&quot;N&#227;o pode dividir por 0!&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <assign variable="divisao" expression="numero1/numero2"/>
+                            <output expression="&quot;O resultado da divis&#227;o &#233;: &quot; &amp; (divisao)" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <assign variable="multiplicacao" expression="numero1 * numero2"/>
+                    <output expression="&quot;Resultado da multiplica&#231;&#227;o: &quot; &amp; (multiplicacao)" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ifsp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-12 05:03:46 "/>
+        <attribute name="created" value="aWZzcDtCUkktTDFNMzg7MjAyMi0wNS0xMjsiMDQ6MjA6MDMgIjsyMTg3"/>
+        <attribute name="edited" value="aWZzcDtCUkktTDFNMzg7MjAyMi0wNS0xMjsiMDU6MDM6NDYgIjsxOzIzMDQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome" type="String" array="False" size=""/>
+            <declare name="nota1, nota2, nota3, nota4, media" type="Real" array="False" size=""/>
+            <output expression="&quot;Qual o seu nome?&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Qual a nota do 1&#186; bimestre?&quot;" newline="True"/>
+            <input variable="nota1"/>
+            <if expression="nota1&gt;=9.0">
+                <then>
+                    <if expression="nota1&lt;10">
+                        <then/>
+                        <else/>
+                    </if>
+                    <output expression="&quot;Nota do 1&#186; bimestre: A&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="nota1&gt;=7.5">
+                        <then>
+                            <if expression="nota1&lt;9.0">
+                                <then/>
+                                <else/>
+                            </if>
+                            <output expression="&quot;Nota do 1&#186; bimestre: B&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="nota1&gt;=6.0">
+                                <then>
+                                    <if expression="nota1&lt;7.5">
+                                        <then/>
+                                        <else/>
+                                    </if>
+                                    <output expression="&quot;Nota do 1&#186; bimestre: C&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="nota1&gt;=4.0">
+                                        <then>
+                                            <if expression="nota1&lt;6.0">
+                                                <then/>
+                                                <else/>
+                                            </if>
+                                            <output expression="&quot;Nota do 1&#186; bimestre: D&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="nota1&lt;4.0">
+                                                <then>
+                                                    <output expression="&quot;Nota do 1&#186; bismestre: E&quot;" newline="True"/>
+                                                </then>
+                                                <else/>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="&quot;Qual a nota do 2&#186; bimestre?&quot;" newline="True"/>
+            <input variable="nota2"/>
+            <if expression="nota2&gt;=9.0">
+                <then>
+                    <if expression="nota2&lt;10">
+                        <then/>
+                        <else/>
+                    </if>
+                    <output expression="&quot;Nota do 2&#186; bimestre: A&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="nota2&gt;=7.5">
+                        <then>
+                            <if expression="nota2&lt;9">
+                                <then/>
+                                <else/>
+                            </if>
+                            <output expression="&quot;Nota do 2&#186; bimestre: B&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="nota2&gt;=6.0">
+                                <then>
+                                    <if expression="nota2&lt;7.5">
+                                        <then/>
+                                        <else/>
+                                    </if>
+                                    <output expression="&quot;Nota do 2&#186; bimestre: C&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="nota2&gt;=4.0">
+                                        <then>
+                                            <if expression="nota2&lt;6.0">
+                                                <then/>
+                                                <else/>
+                                            </if>
+                                            <output expression="&quot;Nota do 2&#186; bimestre: D&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="nota2&lt;4.0">
+                                                <then>
+                                                    <output expression="&quot;Nota do 2&#186; bimestre: E&quot;" newline="True"/>
+                                                </then>
+                                                <else/>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="&quot;Qual a nota do 3&#186; bimestre?&quot;" newline="True"/>
+            <input variable="nota3"/>
+            <if expression="nota3&gt;=9.0">
+                <then>
+                    <if expression="nota3&lt;10">
+                        <then/>
+                        <else/>
+                    </if>
+                    <output expression="&quot;Nota do 3&#186; bimestre: A&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="nota3&gt;=7.5">
+                        <then>
+                            <if expression="nota3&lt;9.0">
+                                <then/>
+                                <else/>
+                            </if>
+                            <output expression="&quot;Nota do 3&#186; bimestre: B&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="nota3&gt;=6.0">
+                                <then>
+                                    <if expression="nota3&lt;7.5">
+                                        <then/>
+                                        <else/>
+                                    </if>
+                                    <output expression="&quot;Nota do 3&#186; bimestre: C&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="nota3&gt;=4.0">
+                                        <then>
+                                            <if expression="nota3&lt;6.0">
+                                                <then/>
+                                                <else/>
+                                            </if>
+                                            <output expression="&quot;Nota do 3&#186; bimestre: D&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="nota3&lt;4.0">
+                                                <then>
+                                                    <output expression="&quot;Nota do 3&#186; bimestre: E&quot;" newline="True"/>
+                                                </then>
+                                                <else/>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <output expression="&quot;Qual a nota do 4&#186; bimestre?&quot;" newline="True"/>
+            <input variable="nota4"/>
+            <if expression="nota4&gt;=9.0">
+                <then>
+                    <if expression="nota4&lt;10">
+                        <then/>
+                        <else/>
+                    </if>
+                    <output expression="&quot;Nota do 4&#186; bimestre: A&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="nota4&gt;=7.5">
+                        <then>
+                            <if expression="nota4&lt;9.0">
+                                <then/>
+                                <else/>
+                            </if>
+                            <output expression="&quot;Nota do 4&#186; bimestre: B&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="nota4&gt;=6.0">
+                                <then>
+                                    <if expression="nota4&lt;7.5">
+                                        <then/>
+                                        <else/>
+                                    </if>
+                                    <output expression="&quot;Nota do 4&#186; bimestre: C&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="nota4&gt;=4.0">
+                                        <then>
+                                            <if expression="nota4&lt;6.0">
+                                                <then/>
+                                                <else/>
+                                            </if>
+                                            <output expression="&quot;Nota do 4&#186; bimestre: D&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="nota4&lt;4.0">
+                                                <then>
+                                                    <output expression="&quot;Nota do 4&#176; bimestre: E&quot;" newline="True"/>
+                                                </then>
+                                                <else/>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <assign variable="media" expression="(nota1 + nota2 + nota3 + nota4) / 4"/>
+            <output expression="&quot;Media final: &quot; &amp; (media)" newline="True"/>
+            <if expression="media&gt;=6.0">
+                <then>
+                    <output expression="(nome) &amp; &quot;foi aprovado.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="(nome) &amp; &quot;foi reprovado.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

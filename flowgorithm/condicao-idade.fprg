@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ifsp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-12 02:21:31 "/>
+        <attribute name="created" value="aWZzcDtCUkktTDFNMzg7MjAyMi0wNS0xMjsiMDE6NTk6MzMgIjsyMTk5"/>
+        <attribute name="edited" value="aWZzcDtCUkktTDFNMzg7MjAyMi0wNS0xMjsiMDI6MjE6MzEgIjsyOzIyOTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="anoatual, anodenasc, idade" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o ano atual&quot;" newline="True"/>
+            <input variable="anoatual"/>
+            <output expression="&quot;Digite o ano de nascimento&quot;" newline="True"/>
+            <input variable="anodenasc"/>
+            <assign variable="idade" expression="anoatual-anodenasc"/>
+            <if expression="idade&gt;=18">
+                <then>
+                    <output expression="&quot;Tem &quot; &amp; (idade) &amp; &quot;. &#201; maior de idade.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Tem &quot; &amp; (idade) &amp; &quot;. Ainda &#233; menor de idade&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

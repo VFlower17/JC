@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ifsp"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-06-30 03:57:10 "/>
+        <attribute name="created" value="aWZzcDtCUkktTDFNMDI7MjAyMi0wNi0zMDsiMDM6MDY6NDMgIjsyMTg2"/>
+        <attribute name="edited" value="aWZzcDtCUkktTDFNMDI7MjAyMi0wNi0zMDsiMDM6NTc6MTAgIjs0OzIyOTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="d, o, p, e" type="Integer" array="False" size=""/>
+            <output expression="&quot;D&#234; um valor para d&quot;" newline="True"/>
+            <input variable="d"/>
+            <assign variable="o" expression="0"/>
+            <for variable="o" start="1" end="10" direction="inc" step="1">
+                <assign variable="e" expression="d * o"/>
+                <output expression="(d) &amp; &quot;*&quot; &amp; (o) &amp; &quot;=&quot; &amp; (e)" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

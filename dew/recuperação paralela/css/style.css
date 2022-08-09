@@ -1,0 +1,25 @@
+#nome{
+    width: 250px;
+    margin-left: 3px;
+}
+#email{
+    width: 250px;
+}
+#endereco{
+    width: 350px;
+}
+#cidade{
+    width: 365px;
+}
+#telefone1{
+    width: 40px;
+}
+#telefone2{
+    width: 100px;
+}
+#usuario{
+    width: 156px;
+}
+#senha{
+    width: 165px;
+}

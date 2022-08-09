@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/cadastro.css">
+</head>
+<body>
+    <form name="formulario" method="post" action="../pages/page.html">
+        <h1>Fazer cadastro no Formulário</h1>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" id="senha">
+        <label for="uf">Região</label>
+        <select name="regiao" id="regiao">         
+            <option value="Selecionar Região">Selecionar Região</option>
+            <option value="África">África</option>
+            <option value="América Central">América Central</option>
+            <option value="América do Norte">América do Norte</option>
+            <option value="América do Sul">América do Sul</option>
+            <option value="Ásia">Ásia</option>
+            <option value="Europa">Europa</option>
+        </select>
+            <label for="data">Data</label>
+            <input name="data" type="date" placeholder="Data">
+            <button onclick="alert('Página em desenvolvimento!')" name="botao" id="botao">Cadastrar</button>
+    </form>
+</body>
+</html>
